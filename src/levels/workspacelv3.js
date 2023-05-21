@@ -369,7 +369,7 @@ export default function Workspace() {
     return (
         <>
             <Toaster />
-            <div style={{ backgroundColor: "#2E6ECD", padding: "2%" }}>
+            <div style={{ backgroundColor: "#471D8C", padding: "2%" }}>
                 <div
                     style={{
                         display: "flex",
