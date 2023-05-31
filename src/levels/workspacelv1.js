@@ -2,6 +2,7 @@
 // import "./customBlocks/custom_Blocks";
 // import "./customBlocks/looping_Blocks";
 
+import "./styles.css";
 import "../App.css";
 import "../customBlocks/custom_Blocks";
 import "../style/home.css"
@@ -19,6 +20,9 @@ import { faTemperatureDown } from '@fortawesome/free-solid-svg-icons';
 import { faHandHoldingDroplet } from '@fortawesome/free-solid-svg-icons';
 import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { faRoad } from '@fortawesome/free-solid-svg-icons';
+
+//add playground
+
 
 
 //generate clientID with random string
@@ -200,6 +204,8 @@ export default function Workspace() {
             setJavascriptCode(code);
         }
     }
+
+    
 
 
 
@@ -397,6 +403,8 @@ export default function Workspace() {
                             borderRadius: "10px",
                         }}
                     >
+
+                        
                         {/* start levels */}
                         <div>
                             <p class="level text-white">Level Pembelajaran</p>
@@ -424,7 +432,8 @@ export default function Workspace() {
                         <BlocklyWorkspace
                             toolboxConfiguration={toolboxCategories}
                             initialXml={initialXml}
-                            className='fill-height'
+                            className='blocklyDiv'
+                            // className='fill-heigh'
                             workspaceConfiguration={{
                                 grid: {
                                     spacing: 20,

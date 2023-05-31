@@ -451,7 +451,8 @@ export default function Workspace() {
                         <BlocklyWorkspace
                             toolboxConfiguration={toolboxCategories}
                             initialXml={initialXml}
-                            className='fill-height'
+                            // className='fill-height'
+                            className='blocklyDiv'
                             workspaceConfiguration={{
                                 grid: {
                                     spacing: 20,
